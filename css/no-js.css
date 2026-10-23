@@ -1,0 +1,8 @@
+/* Without JavaScript every slide is shown in reading order. */
+body { overflow: auto; }
+.deck { position: static; }
+.slide { overflow: visible; position: relative; opacity: 1; visibility: visible; transform: none; border-bottom: 1px solid var(--line); }
+.tip { display: none; }
+.rv { opacity: 1; transform: none; }
+.bar, .progress { display: none; }
+.ping, .halo { display: none; }
